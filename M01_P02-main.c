@@ -14,6 +14,8 @@ int main(void) {
     char cuenta;
     DDRA = 0xFF;
     cuenta = 00;
+
+
     PORTA = cuenta;
     while (cuenta<255) {
         cuenta = cuenta+1;
